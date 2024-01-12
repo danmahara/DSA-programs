@@ -1,8 +1,8 @@
 #include <stdio.h>
-
+int i;
 void displayList(int arr[], int size) {
     printf("Displaying elements in list:\n");
-    for (int i = 0; i < size; i++) {
+    for ( i = 0; i < size; i++) {
         printf("%d ", arr[i]);
     }
     printf("\n");

@@ -56,7 +56,7 @@ void insert()
     {
 
         front = rear = 0;
-        printf("\nInsert the element in   queue : \t");
+        printf("\nInsert the element in queue : \t");
 
         scanf("%d", &item);
         queue_array[rear] = item;

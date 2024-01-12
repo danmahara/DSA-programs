@@ -82,7 +82,7 @@ int main() {
             int element, position;
             printf("Enter the element to insert: ");
             scanf("%d", &element);
-            printf("Enter the position to insert at: ");
+            printf("Enter the index to insert at: ");
             scanf("%d", &position);
             insertElement(arr, &size, element, position);
             break;
@@ -116,7 +116,7 @@ int main() {
         }
         case 5: {
             int position, newElement;
-            printf("Enter the position to update: ");
+            printf("Enter the index to update: ");
             scanf("%d", &position);
             printf("Enter the new element: ");
             scanf("%d", &newElement);
